@@ -3,7 +3,7 @@
 
 <div class="container">
 
-<button class="btn btn-primary mb-3" data-toggle="modal" data-target="#addModal">Add Expense +</button>
+<button class="btn btn-info mb-3" data-toggle="modal" data-target="#addModal">Add Expense +</button>
 
       <!-- Data Show -->
         <div class="row">
@@ -68,7 +68,7 @@
                     <td>{{$expense->comment}}</td>
                     <td>
 
-                      <a href="" id="deleteExpenseId" data-id="{{$expense->id}}" class="btn btn-sm btn-danger">Delete</a>
+                      <a href="" id="deleteExpenseId" data-id="{{$expense->id}}" class="btn btn-sm btn-outline-danger">Delete</a>
                   </td>
                   </tr>
                  @endforeach

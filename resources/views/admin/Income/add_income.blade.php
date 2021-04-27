@@ -5,7 +5,7 @@
 
 <h4>Income Management</h4>
 <div class="container">
-<button class="btn btn-info float-right" data-toggle="" style="margin-top:7px;"data-target="">Report
+<button class="btn btn-outline-warning float-right" data-toggle="" style="margin-top:7px;"data-target="">Report
 </button>
 <button type="button" class="btn btn-info mb-4 mt-2" data-toggle="modal" data-target="#addModal">
  Add Income +
@@ -93,7 +93,7 @@
 
 <div class="card shadow mb-4">
     <div class="card-header py-3">
-        <h6 class="m-0 font-weight-bold text-primary">Income List</h6>
+        <h6 class="m-0 font-weight-bold text-info">Income List</h6>
     </div>
     <div class="card-body">
 

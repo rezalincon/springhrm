@@ -30,7 +30,7 @@
                 @include('admin.file-management._form')
 
                 <div class="card-footer">
-                    <button type="submit" class="btn btn-success">Send</button>
+                    <button type="submit" class="btn btn-outline-success">Send</button>
                 </div>
             </form>
         </div>

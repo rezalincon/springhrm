@@ -26,7 +26,15 @@
 
     <div class="form-group" >
         <label for="file">File</label>
-        <input type="file" name="file" class="form-control" id="file" value="" placeholder="Upload File ">
+        <div class="input-group mb-3">
+  <div class="input-group-prepend">
+    <span class="input-group-text">Upload</span>
+  </div>
+  <div class="custom-file">
+    <input type="file" class="custom-file-input" id="inputGroupFile01" require>
+    <label class="custom-file-label" for="inputGroupFile01">Choose file</label>
+  </div>
+</div>
         @error('file')<i class="text-danger">{{$message}}</i>@enderror
     </div>
 
