@@ -1,0 +1,9 @@
+.image {
+    background-image: url("../img/hrmmm.jpg");
+    background-color: #cccccc;
+    height: 660px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    position: relative;
+  }
