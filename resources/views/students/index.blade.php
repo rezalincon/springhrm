@@ -11,7 +11,7 @@
 
                 </div>
                 <div class="col-md-2">
-                    <a href="{{ route('student.create') }}" class="mr-auto btn btn-success"><i class="fa fa-plus"></i>&nbsp;&nbsp;<?php echo ('Add Student'); ?></a>
+                    <a href="{{ route('student.create') }}" class="mr-auto btn btn-outline-success"><i class="fa fa-plus"></i>&nbsp;&nbsp;<?php echo ('Add Student'); ?></a>
                 </div>
             </div>
 
@@ -27,7 +27,7 @@
                             <th>Name</th>
                             <th>Image</th>
                             <th>Email</th>
-                            <th>Sex</th>
+                            <th>Gender</th>
                             <th>Phone</th>
                             <th>DOB</th>
                             <th>Address</th>
@@ -46,7 +46,7 @@
                                 <img src="{{ asset('files/uploads/students/'.$student->image) }}" alt="" width="50px;" height="50px;" class="rounded-circle">
                             </td>
                             <td>{{ $student->email }}</td>
-                            <td>{{ $student->sex }}</td>
+                            <td>{{ $student->gender }}</td>
                             <td>{{ $student->phone }}</td>
                             <td>{{ date("jS F, Y", strtotime($student->birthday)) }}</td>
                             <td>{{ $student->address }}</td>
@@ -88,7 +88,7 @@
                             <th>Name</th>
                             <th>Image</th>
                             <th>Email</th>
-                            <th>Sex</th>
+                            <th>Gender</th>
                             <th>Phone</th>
                             <th>DOB</th>
                             <th>Address</th>

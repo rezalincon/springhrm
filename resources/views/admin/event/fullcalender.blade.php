@@ -5,7 +5,7 @@
 
 
 <div class="container">
-    <h1>Event Calender</h1>
+    <h1>Event Calendar</h1>
     
     <div id='calendar'></div>
 </div>

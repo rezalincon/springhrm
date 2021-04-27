@@ -20,7 +20,7 @@
                             <thead>
                             <tr>
                                 <th>ID</th>
-                                <th>designation Name</th>
+                                <th>Designation Name</th>
                                 <th>Action</th>
                             </tr>
                             </thead>

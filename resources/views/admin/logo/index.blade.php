@@ -6,7 +6,7 @@
 <div class="container">
     <div class="card shadow mb-4">
         <div class="card-header py-3">
-            <h6 class="m-0 font-weight-bold text-primary">Change Logo</h6>
+            <h6 class="m-0 font-weight-bold text-info">Change Logo</h6>
         </div>
         <div class="card-body">
 
@@ -23,13 +23,18 @@
                 @csrf
 
 
-            <div class="form-group col-md-5">
-                <label for="image">Add Logo</label>
-                <input type="file" name="image" class="form-control" required><p>Only .png Files</p>
-            </div>
+                <div class="input-group mb-3">
+  <div class="input-group-prepend">
+    <span class="input-group-text">Upload</span>
+  </div>
+  <div class="custom-file">
+    <input type="file" name="image" class="custom-file-input" id="inputGroupFile01">
+    <label class="custom-file-label" for="inputGroupFile01">Choose file</label>
+  </div>
+</div>
 
             <div class="form-group">
-                <input type="submit" class="btn btn-success" value="add">
+                <input type="submit" class="btn btn-outline-success" value="Add">
               </div>
             </form>
 
