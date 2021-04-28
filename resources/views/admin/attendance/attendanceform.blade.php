@@ -78,8 +78,8 @@ $result = json_decode($result);
                     <input type="hidden" value="<?php echo $result->query  ?>" name="ip">
                     <label for="id">Employee ID</label>
                     <input type="text" name="userid" class="form-control"  placeholder="Enter Employee ID" required><br>
-                    <button type="submit" name="action" value="timein" class="btn btn-success">Time In</button>
-                    <button type="submit" name="action" value="timeout" class="btn btn-danger">Time Out</button>
+                    <button type="submit" name="action" value="timein" class="btn btn-outline-success">Time In</button>
+                    <button type="submit" name="action" value="timeout" class="btn btn-outline-danger">Time Out</button>
                 </div>
             </div>
 
