@@ -13,7 +13,7 @@
 
             <div class="row">
 
-                <div >
+                <div style=" width :100%;" >
                     <table class="table table-bordered dt-responsive" id="AdminLeaveRequestDT" width="100%" cellspacing="0">
                         <thead>
                         <tr>

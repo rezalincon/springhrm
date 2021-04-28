@@ -3,23 +3,23 @@
  @section('content')
 <div class="container">
 
-<div class="row">
+<div class="row" style="margin-bottom:20px;">
   <div class="col-md-4 col-sm-6">
-      <div class="card" style="width: 18rem;">
+      <div class="card" style="width: 18rem; height:140px; margin-left: 30px;">
 
-    <div class="card-title text-primary"><h3>Enrolled Student</h3></div>
-          <div class="card-body">
-            <h3 class="card-title text-success">Laravel</h3>{{ $laravel->count() }}
+    <div class="card-title text-info" style=" padding-left: 20px;padding-top: 20px;"><h4>Enrolled Student</h4></div>
+          <div class="" style="padding-left: 20px; position: relative">
+            <h5 class=" text-success" >Laravel</h5>{{ $laravel->count() }}
             <span class="text-muted">Student</span>
           </div>
         </div>
   </div>
 
   <div class="col-md-4 col-sm-6">
-      <div class="card" style="width: 18rem;">
-        <div class="card-title text-primary"><h3>Enrolled Student</h3></div>
-          <div class="card-body">
-            <h3 class="card-title text-success">JavaScript</h3>{{ $javascript->count() }}
+      <div class="card" style="width: 18rem; height:140px; margin-left: 30px;">
+        <div class="card-title text-info" style=" padding-left: 20px;padding-top: 20px;"><h4>Enrolled Student</h4></div>
+          <div style="padding-left: 20px; position: relative">
+            <h5 class=" text-success">JavaScript</h5>{{ $javascript->count() }}
             <span class="text-muted">Student</span>
           </div>
         </div>
@@ -27,10 +27,10 @@
 
 
   <div class="col-md-4 col-sm-6">
-      <div class="card" style="width: 18rem;">
-        <div class="card-title text-primary"><h3>Enrolled Student</h3></div>
-          <div class="card-body">
-            <h3 class="card-title text-success">Python</h3>{{ $python->count() }}
+      <div class="card" style="width: 18rem; height:140px; margin-left: 30px;">
+        <div class="card-title text-info" style=" padding-left: 20px;padding-top: 20px;"><h4>Enrolled Student</h4></div>
+          <div style="padding-left: 20px; position: relative">
+            <h5 class="card-title text-success">Python</h5>{{ $python->count() }}
             <span class="text-muted">Student</span>
           </div>
         </div>
@@ -40,7 +40,7 @@
     <div class="card">
         <div class="card-header">
             <h5 class="card-title">Course Management</h5>
-            <a href="{{ route('course.create') }}" class="mr-auto btn btn-success"><i class="fa fa-plus"></i>&nbsp;&nbsp;<?php echo ('Add Course'); ?></a>
+            <a href="{{ route('course.create') }}" class="mr-auto btn btn-outline-success"><i class="fa fa-plus"></i>&nbsp;&nbsp;<?php echo ('Add Course'); ?></a>
         </div>
         <div class="card-body">
             @include('partials.message')

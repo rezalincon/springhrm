@@ -8,12 +8,12 @@
         <!-- Page Heading -->
         <div class="card shadow mb-4">
             <div class="card-header py-3">
-                <h6 class="m-0 font-weight-bold text-primary">Equipment List</h6>
+                <h6 class="m-0 font-weight-bold text-info">Equipment List</h6>
             </div>
             <div class="card-body">
 
                 <div class="row">
-                    <div class="card-header" style="width:100%">
+                    <div class="card-header" style="width:100%; margin-bottom: 20px;">
                         <a class="btn btn-sm btn-info" data-toggle="modal" href="#add_equipment_modal" style="float: right;">Add new Equipment</a>
                     </div>
                     <div style="width: 100%">

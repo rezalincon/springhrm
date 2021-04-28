@@ -6,7 +6,7 @@
     <div class="card">
         <div class="card-header">
             <h5 class="card-title">Trainer Management</h5>
-            <a href="{{ route('trainer.create') }}" class="mr-auto btn btn-success"><i class="fa fa-plus"></i>&nbsp;&nbsp;<?php echo ('Add Trainer'); ?></a>
+            <a href="{{ route('trainer.create') }}" class="mr-auto btn btn-outline-success"><i class="fa fa-plus"></i>&nbsp;&nbsp;<?php echo ('Add Trainer'); ?></a>
         </div>
         <div class="card-body">
             @include('partials.message')

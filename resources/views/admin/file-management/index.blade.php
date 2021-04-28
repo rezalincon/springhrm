@@ -23,12 +23,12 @@
         <!-- DataTales Example -->
         <div class="card shadow mb-4">
             <div class="card-header py-3">
-                <h6 class="m-0 font-weight-bold text-primary">List of files</h6>
+                <h6 class="m-0 font-weight-bold text-info">List of files</h6>
             </div>
             <div class="card-header py-3">
                 <form action="{{route('delete.all')}}" method="post" >
                     @csrf
-                    <button class="btn btn-danger btn-xs" onclick="return confirm('Are You Confirm To Delete')" >Delete all files</button>
+                    <button class="btn btn-outline-danger btn-xs" onclick="return confirm('Are You Confirm To Delete')" >Delete all files</button>
                 </form>
             </div>
             <div class="card-body">
